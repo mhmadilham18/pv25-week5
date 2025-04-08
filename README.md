@@ -52,7 +52,7 @@
 
 ## 🧱 Catatan Pengembangan
 
-Tugas ini merupakan pengembangan dari tugas **pv25-week2**, dengan menambahkan:
+Tugas ini dibuat dengan menggunakan UI dari tugas **pv25-week2**, dengan menambahkan:
 - Komponen validasi form secara lengkap.
 - Interaksi logika penyimpanan data.
 - Input masking & validator untuk nomor telepon.
