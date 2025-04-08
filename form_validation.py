@@ -363,6 +363,8 @@ class RegistrationForm(QWidget):
         # Validate required fields
         if not name:
             errors.append("⚠ Nama tidak boleh kosong")
+        elif len(name) < 3:
+            errors.append("⚠ Nama harus terdiri dari minimal 3 karakter")
 
         if not self.validate_email(email):
             errors.append("⚠ Format email tidak valid")
